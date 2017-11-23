@@ -13,7 +13,8 @@ app.on('ready', () => {
         height: 500,
         frame: false,
         resizable: false,
-        show: false
+        show: false,
+        webPreferences: { backgroundThrottling: false }
     });
 
     // Leave here so we can load different URL's
